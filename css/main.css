@@ -4,20 +4,21 @@
 #image-preview {
     height: 100vh;
     width: 100vw;
-    background-color: #666;
+    background-color: #428ccd;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    color: white;
+    color: #9ab7d6;
     font-family: Impact, monospace;
-    font-size: 4rem;
+    font-size: 65px;
     font-weight: bold;
     position: relative;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 .top-text {
     position: absolute;
     top: 0;
+    
 }
 .bottom-text {
     position: absolute;
@@ -25,21 +26,43 @@
 }
 
 /* Form Styles */
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    margin: auto;
+}
 #form-container {
     background: rgba(0,0,0,0.5);
-    color: #fff;
+    color: #b6ed91;
     padding: 1rem;
     position: absolute;
+    text-align: center;
     top: 1rem;
     right: 1rem;
     width: 25%;
     z-index: 1000;
+    border: 0.5rem solid black;
 }
+button {
+    background:  #b6ed91;   
+    padding: 0.2rem;
+    border: 1.5px rgba(255,255,255,0) solid;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    }
+    button:hover, button:focus {
+    background: #b6ed91;
+    padding: 0.5rem;
+    border: 1px black solid;
+    color: black;
+    }
 
 /* General structure styles */
 body {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
+    font-family: Comic Sans MS, sans-serif;
+    font-weight: 300;
 }
 
 html {

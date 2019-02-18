@@ -6,7 +6,7 @@
 
   <title>WATS 3020: Image Maker</title>
   <meta name="description" content="WATS 3020 Image Maker">
-  <meta name="author" content="Jane Student">
+  <meta name="author" content="Amanda Teague">
 
   <link rel="stylesheet" href="css/main.css">
 
@@ -16,7 +16,7 @@
 
 <body>
   <div id="form-container">
-    <h1>Image Maker</h1>
+    <h1>Meme Generator</h1>
     <p>Choose your settings to generate an image.</p>
     <form>
       <p>
@@ -30,14 +30,15 @@
       <p>
         <label for="backgroundImage">Background</label>
         <select name="backgroundImage">
+          <option value="sloth.jpg">sloth</option>
+          <option value="ohyeah.jpg">ohyeah</option>
           <option value="dog.jpg">dog</option>
           <option value="fry.jpg">fry</option>
           <option value="heman.jpg">heman</option>
           <option value="picard.jpg">picard</option>
-          <option value="stark.jpg">stark</option>
         </select>
       </p>
-      <p><input type="submit" value="Download Image"></p>
+      <p class="controls"><button id="submit">Download Image</button></p>
     </form>
   </div>
 
